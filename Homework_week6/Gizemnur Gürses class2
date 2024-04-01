@@ -1,0 +1,21 @@
+public class VarMoreExamples {
+    public int number=11;
+
+    public double number2=15.12;
+
+    public char letter3='c';
+
+    public boolean project4= true;
+}
+
+public class varMore {
+    public static void main(String[] args) {
+
+        VarMoreExamples degisken = new VarMoreExamples();
+        System.out.println(degisken.number);
+        System.out.println(degisken.number2);
+        System.out.println(degisken.letter3);
+        System.out.println(degisken.project4);
+
+    }
+}
