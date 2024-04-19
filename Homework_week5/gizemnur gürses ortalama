@@ -1,0 +1,16 @@
+public class Main {
+	public static void main(String[] args) {
+		
+		double[] sayilar= {7.15, 14, 28, 36.57, 9.22, 76};
+		double toplam=0;
+		double ortalama=0;
+		
+		for(double sayi: sayilar) 
+			toplam+=sayi;
+		
+		ortalama= toplam/ sayilar.length;
+		
+		System.out.println("Sayıların toplamı: " +toplam +"\n" +"Sayiların ortalaması: " +ortalama);
+		
+	}
+}
