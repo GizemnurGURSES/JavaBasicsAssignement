@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class KelimeTersCevir {
+    public static void main(String[]args){
+        String[] dizi=new String[100];
+
+        String kelime;
+        Scanner scan= new Scanner(System.in);
+        System.out.print("Kelimeyi girin: ");
+        kelime=scan.nextLine();
+
+        for(int i=0;i<kelime.length();i++){
+            String harf = kelime.substring(i,i+1);
+            dizi[i]=harf;
+        }
+
+        for(int i=1;i<=kelime.length();i++){
+            System.out.print(dizi[kelime.length()-i]);
+        }
+    }
+}
